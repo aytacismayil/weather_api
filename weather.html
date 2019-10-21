@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daily Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="weatherData()">
+  <!-- Retrieved data will be dumped here -->
+  <div id="weather_wrapper">
+    <input id="input" type="text" placeholder="Enter the city name">
+    <div class="weatherCard">
+      <div class="currentTemp">
+        <span class="temp"></span>
+        <span class="city"></span>
+      </div>
+      <div class="currentWeather">
+        <span class="conditions">&#xf00d;</span>
+        <div class="info">
+          <span class="humidity"></span>
+          <span class="wind"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--                                -->
+  <!-- <div class="city"></div>
+  <div class="wind"></div>
+  <div class="humidity"></div>
+  <div class="temp"></div> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="script.js"></script>
+</body>
+
+</html>
